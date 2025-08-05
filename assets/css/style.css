@@ -21,7 +21,6 @@ body {
     font-family: 'Raleway', sans-serif;
     background: var(--background);
     color: var(--text-color);
-    margin: 2rem;
 }
 
 .banner {
@@ -30,8 +29,8 @@ body {
         url('../images/banner.png');
     background-size: cover;
     background-position: center;
-    width: 100%;
     margin: 3.5rem 0 4.5rem;
+    margin: 2rem;
 }
 
 .banner-content {
@@ -114,6 +113,7 @@ main {
     flex-direction: column;
     align-items: center;
     gap: 5rem;
+    margin: 2rem;
 }
 
 #course-content {
@@ -219,4 +219,73 @@ span{
     max-width: 600px;
 }
 
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 1rem;
+    padding: 2rem 0;
+    border-top: 1px solid var(--main-color);
+    background: var(--gray);
+    border-top: 1px solid #33A8DB;
+    background: linear-gradient(180deg, rgba(51, 168, 219, 0.00) 0%, rgba(51, 168, 219, 0.20) 99.99%, rgba(51, 168, 219, 0.20) 100%);
+}
+
+footer img {
+    width: 50%;
+    height: auto;
+}
+
+footer p {
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.2rem;
+    text-align: center;
+}
+
+a {
+    color: var(--main-color);
+    text-decoration: none;
+    font-weight: 800;
+}
+
+@media screen and (min-width: 768px) {
+   .logo {
+        width: 80vw;      
+        max-width: 268px; 
+   }
+   
+   .banner-content {
+        gap: 2rem;
+        margin: 3.5rem 0 4.6rem;
+    }
+
+   .banner-content h1 {
+       font-size: 2.5rem;
+       line-height: 3rem;
+       letter-spacing: 0.1rem;
+   }
+
+   .banner-content p {
+       font-size: 1.25rem;
+       width: 80%;
+   }
+
+    .banner-content button {
+         width: 20rem;
+         font-size: 1rem;
+         padding: 1rem 2rem;
+    }
+
+    .banner-content button {
+        width: 25rem;
+        padding: 1.2rem 2rem;
+        font-size: 0.9rem;
+}
+
+
+}
 
