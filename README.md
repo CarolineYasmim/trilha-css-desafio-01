@@ -1,22 +1,107 @@
-# Desafio 01: Criando sua primeira Landing Page com HTML e CSS
+# Landing Page - Desafio CSS DIO 🎨
 
-Bem vindo(a) ao primeiro desafio da Trilha de CSS da DIO! Nela, você vai construir sua primeira Landing Page com HTML e CSS, colocando em prática os fundamentos do CSS,
-as propriedades básicas da linguagem de estilização, além de trabalhar com as unidades de medidas relativas e absolutas que aprendemos ao longo da trilha.
+[![Status](https://img.shields.io/badge/status-completo-brightgreen)]()
+[![License](https://img.shields.io/badge/license-MIT-blue)](#licença)
 
-[Clique aqui](https://micheleambrosio.github.io/dio-trilha-css-desafio-01/) para acessar o resultado final da Landing Page criada a partir do desafio!
+Landing page criada como parte do **Desafio 01 - Trilha de CSS da DIO**.  
+O objetivo foi **praticar fundamentos de CSS** explorando tipografia, gradientes, responsividade e variáveis de estilo, criando uma página visualmente atrativa e semântica.
 
-![image](https://user-images.githubusercontent.com/55519539/183538055-6cce606c-7d1d-4d15-a4be-ffeb5b37c956.png)
+> **Deploy ao vivo:** [Acesse aqui](https://seu-usuario.github.io/seu-repo) 🚀
 
-Para você realizar o desafio, basta fazer um **fork** para o seu GitHub e começar a mexer no projeto.
-Dentro da pasta *main*, você vai encontrar todas as imagens e o arquivo HTML, contendo a estrutura básica da sua página, faltando apenas
-realizar a estilização da sua página. É necessário que você faça toda a parte responsável por interligar sua página HTML com suas folhas
-de estilo para que o resultado da estilização funcione.
+---
 
-[Link do Figma](https://www.figma.com/file/3PiokoJj9IhGDnNiWAJbz7/DIO---Desafio-01?node-id=2%3A6) contendo o protótipo do desafio para
-que você possa se basear.
+## 📸 Preview
+![Screenshot Desktop](assets/images/preview-desktop.png)  
+![Screenshot Mobile](assets/images/preview-mobile.png)
 
-*Observações: para aplicar os textos em gradiente, utilize a propriedade CSS background-clip, porém, para funcionar em alguns navegadores,
-é necessário utilizar a propriedade -webkit-background-clip: text;*
+---
 
-Caso tenha alguma dúvida, ou queira comparar o resultado do desafio que você fez, nós temos o site finalizado na branch *final*. Basta alterar a branch do projeto
-utilizando o comando `git checkout final` no seu terminal.
+## 📌 Sobre o Projeto
+Este projeto é uma landing page totalmente estilizada em **CSS puro**, com base na estrutura HTML fornecida no desafio.  
+O layout foi inspirado no protótipo do [Figma oficial do desafio](https://www.figma.com/file/3PiokoJj9IhGDnNiWAJbz7/DIO---Desafio-01?node-id=2%3A6).
+
+**Principais objetivos do desafio:**
+- Consolidar os fundamentos de **CSS** (seletores, propriedades, unidades de medida relativas e absolutas).
+- Implementar **responsividade** para diferentes tamanhos de tela.
+- Trabalhar com **gradientes** e a propriedade `background-clip` para efeitos de texto.
+- Utilizar **variáveis CSS** para manter consistência visual.
+
+---
+
+## 🛠 Tecnologias Utilizadas
+- **HTML5** (estrutura semântica)
+- **CSS3**
+  - Variáveis CSS
+  - Flexbox
+  - CSS Grid (em partes)
+  - Media queries
+  - Gradientes e efeitos visuais
+- **Google Fonts** (Raleway)
+
+---
+
+## ✨ Funcionalidades
+- Layout responsivo (mobile e desktop)
+- Header com logotipo centralizado
+- Botão de inscrição com borda personalizada
+- Seção de módulos do curso com cards estilizados
+- Banner com imagem de fundo e texto em destaque
+- Rodapé com logotipo e link para o site oficial da DIO
+- Efeitos visuais como `text-shadow` e gradientes no texto
+
+---
+
+## 📂 Estrutura do Projeto
+```
+├── assets/
+│ ├── css/
+│ │ └── style.css
+│ ├── images/
+│ │ ├── banner.png
+│ │ ├── logo.png
+│ │ ├── dio-logo.png
+│ │ ├── professional-challenges.png
+│ │ └── woman-code.png
+│ └── ...
+├── index.html
+└── README.md
+```
+---
+
+## 🚀 Como Executar Localmente
+1. **Clone o repositório**
+```
+   git clone https://github.com/<seu-usuario>/<seu-repo>.git
+```
+Acesse a pasta do projeto
+```
+cd <seu-repo>
+```
+Abra o `index.html` no navegador ou use a extensão Live Server no VS Code.
+
+## 🎯 Decisões de Design
+- **Variáveis CSS** para paleta de cores (`--main-color`, `--secondary-color`, etc.).
+- **Flexbox** para alinhamentos e distribuição de elementos.
+- **Media queries** para adaptação a diferentes resoluções.
+- **Gradientes** aplicados a títulos (`background-clip` e `-webkit-background-clip`).
+- **Efeitos de sombra** (`text-shadow`) para destaque em textos.
+
+---
+
+## 📖 O que Aprendi
+- Diferença prática entre unidades relativas (`rem`, `%`) e absolutas (`px`).
+- Aplicação de gradientes em textos com `background-clip`.
+- Melhor organização do CSS usando seções e variáveis.
+- Uso estratégico de Flexbox e Grid.
+- Testes básicos de acessibilidade (contraste e navegação por teclado).
+
+---
+<tr>
+ <td align="center">
+      <a href="https://github.com/CarolineYasmim">
+        <img src="https://avatars.githubusercontent.com/u/165516630?v=4" width="100px;" alt="Yasmin"/>
+        <br />
+        <sub><b>Yasmim</b></sub>
+      </a>
+    </td>
+</tr>
